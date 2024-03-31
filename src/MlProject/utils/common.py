@@ -7,6 +7,7 @@ from box.exceptions import BoxValueError
 import os
 import json
 import joblib 
+from typing import Any
 
 @ensure_annotations
 def read_yaml(path_to_yaml: Path):
@@ -26,7 +27,7 @@ def read_yaml(path_to_yaml: Path):
         with open(path_to_yaml) as yaml_file:
             content = yaml.safe_load(yaml_file)
             logger.info(f"Yaml file : {path_to_yaml} Loaded Successfully")
-            return ConfigBox
+            return ConfigBox(content)
     except BoxValueError:
         raise ValueError("yaml file is empty")
     except Exception as e:

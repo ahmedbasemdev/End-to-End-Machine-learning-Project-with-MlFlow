@@ -1,1 +1,174 @@
 [2024-03-30 13:14:39,800 : INFO : main : Welcome to our Project]
+[2024-03-31 17:05:01,596 : INFO : main : Welcome to our Project]
+[2024-03-31 22:01:15,209 : INFO : main : >>>>>> Stage Data Ingestion Stage Started <<<<<<]
+[2024-03-31 22:01:15,215 : INFO : common : Yaml file : config\config.yaml Loaded Successfully]
+[2024-03-31 22:01:15,218 : INFO : common : Yaml file : params.yaml Loaded Successfully]
+[2024-03-31 22:01:15,220 : INFO : common : Yaml file : schema.yaml Loaded Successfully]
+[2024-03-31 22:01:15,220 : ERROR : main : type object 'ConfigBox' has no attribute 'artifacts_root']
+Traceback (most recent call last):
+  File "G:\Projects\End-to-End-Machine-learning-Project-with-MlFlow\main.py", line 9, in <module>
+    pipe.main()
+  File "g:\projects\end-to-end-machine-learning-project-with-mlflow\src\MlProject\pipeline\stage_01_data_ingestion.py", line 12, in main
+    config = ConfigurationManager()
+  File "g:\projects\end-to-end-machine-learning-project-with-mlflow\src\MlProject\config\configuration.py", line 16, in __init__
+    create_directories([self.config.artifacts_root])
+AttributeError: type object 'ConfigBox' has no attribute 'artifacts_root'
+[2024-03-31 22:02:18,471 : INFO : main : >>>>>> Stage Data Ingestion Stage Started <<<<<<]
+[2024-03-31 22:02:18,472 : INFO : common : Yaml file : config\config.yaml Loaded Successfully]
+[2024-03-31 22:02:18,472 : INFO : common : Yaml file : params.yaml Loaded Successfully]
+[2024-03-31 22:02:18,473 : INFO : common : Yaml file : schema.yaml Loaded Successfully]
+[2024-03-31 22:02:18,473 : ERROR : main : type object 'ConfigBox' has no attribute 'artifacts_root']
+Traceback (most recent call last):
+  File "G:\Projects\End-to-End-Machine-learning-Project-with-MlFlow\main.py", line 9, in <module>
+    pipe.main()
+  File "g:\projects\end-to-end-machine-learning-project-with-mlflow\src\MlProject\pipeline\stage_01_data_ingestion.py", line 12, in main
+    config = ConfigurationManager()
+  File "g:\projects\end-to-end-machine-learning-project-with-mlflow\src\MlProject\config\configuration.py", line 16, in __init__
+    create_directories([self.config.artifacts_root])
+AttributeError: type object 'ConfigBox' has no attribute 'artifacts_root'
+[2024-03-31 22:02:41,802 : INFO : main : >>>>>> Stage Data Ingestion Stage Started <<<<<<]
+[2024-03-31 22:02:41,803 : INFO : common : Yaml file : config\config.yaml Loaded Successfully]
+[2024-03-31 22:02:41,803 : INFO : common : Yaml file : params.yaml Loaded Successfully]
+[2024-03-31 22:02:41,804 : INFO : common : Yaml file : schema.yaml Loaded Successfully]
+[2024-03-31 22:02:41,804 : ERROR : main : type object 'ConfigBox' has no attribute 'data_ingestion']
+Traceback (most recent call last):
+  File "G:\Projects\End-to-End-Machine-learning-Project-with-MlFlow\main.py", line 9, in <module>
+    pipe.main()
+  File "g:\projects\end-to-end-machine-learning-project-with-mlflow\src\MlProject\pipeline\stage_01_data_ingestion.py", line 13, in main
+    data_ingestion_config = config.get_data_ingestion_config()
+  File "g:\projects\end-to-end-machine-learning-project-with-mlflow\src\MlProject\config\configuration.py", line 19, in get_data_ingestion_config
+    config = self.config.data_ingestion
+AttributeError: type object 'ConfigBox' has no attribute 'data_ingestion'
+[2024-03-31 22:03:23,395 : INFO : main : >>>>>> Stage Data Ingestion Stage Started <<<<<<]
+[2024-03-31 22:03:23,396 : INFO : common : Yaml file : config\config.yaml Loaded Successfully]
+[2024-03-31 22:03:23,396 : INFO : common : Yaml file : params.yaml Loaded Successfully]
+[2024-03-31 22:03:23,397 : INFO : common : Yaml file : schema.yaml Loaded Successfully]
+[2024-03-31 22:03:23,397 : ERROR : main : type object 'ConfigBox' has no attribute 'artifacts_root']
+Traceback (most recent call last):
+  File "G:\Projects\End-to-End-Machine-learning-Project-with-MlFlow\main.py", line 9, in <module>
+    pipe.main()
+  File "g:\projects\end-to-end-machine-learning-project-with-mlflow\src\MlProject\pipeline\stage_01_data_ingestion.py", line 12, in main
+    config = ConfigurationManager()
+  File "g:\projects\end-to-end-machine-learning-project-with-mlflow\src\MlProject\config\configuration.py", line 16, in __init__
+    create_directories([self.config.artifacts_root])
+AttributeError: type object 'ConfigBox' has no attribute 'artifacts_root'
+[2024-03-31 22:05:38,129 : INFO : main : >>>>>> Stage Data Ingestion Stage Started <<<<<<]
+[2024-03-31 22:05:38,130 : INFO : common : Yaml file : config\config.yaml Loaded Successfully]
+[2024-03-31 22:05:38,146 : INFO : common : Yaml file : params.yaml Loaded Successfully]
+[2024-03-31 22:05:38,147 : INFO : common : Yaml file : schema.yaml Loaded Successfully]
+[2024-03-31 22:05:38,147 : ERROR : main : yaml file is empty]
+Traceback (most recent call last):
+  File "g:\projects\end-to-end-machine-learning-project-with-mlflow\src\MlProject\utils\common.py", line 30, in read_yaml
+    return ConfigBox(content)
+  File "box\box.py", line 247, in box.box.Box.__init__
+box.exceptions.BoxValueError: Cannot extrapolate Box from string
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "G:\Projects\End-to-End-Machine-learning-Project-with-MlFlow\main.py", line 9, in <module>
+    pipe.main()
+  File "g:\projects\end-to-end-machine-learning-project-with-mlflow\src\MlProject\pipeline\stage_01_data_ingestion.py", line 12, in main
+    config = ConfigurationManager()
+  File "g:\projects\end-to-end-machine-learning-project-with-mlflow\src\MlProject\config\configuration.py", line 14, in __init__
+    self.schema = read_yaml(schema_filepath)
+  File "G:\Projects\End-to-End-Machine-learning-Project-with-MlFlow\MlProject\lib\site-packages\ensure\main.py", line 807, in __call__
+    return self.f(*args, **kwargs)
+  File "g:\projects\end-to-end-machine-learning-project-with-mlflow\src\MlProject\utils\common.py", line 32, in read_yaml
+    raise ValueError("yaml file is empty")
+ValueError: yaml file is empty
+[2024-03-31 22:06:16,671 : INFO : main : >>>>>> Stage Data Ingestion Stage Started <<<<<<]
+[2024-03-31 22:06:16,673 : INFO : common : Yaml file : config\config.yaml Loaded Successfully]
+[2024-03-31 22:06:16,674 : INFO : common : Yaml file : params.yaml Loaded Successfully]
+[2024-03-31 22:06:16,674 : INFO : common : Yaml file : schema.yaml Loaded Successfully]
+[2024-03-31 22:06:16,675 : ERROR : main : yaml file is empty]
+Traceback (most recent call last):
+  File "g:\projects\end-to-end-machine-learning-project-with-mlflow\src\MlProject\utils\common.py", line 30, in read_yaml
+    return ConfigBox(content)
+  File "box\box.py", line 247, in box.box.Box.__init__
+box.exceptions.BoxValueError: Cannot extrapolate Box from string
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "G:\Projects\End-to-End-Machine-learning-Project-with-MlFlow\main.py", line 9, in <module>
+    pipe.main()
+  File "g:\projects\end-to-end-machine-learning-project-with-mlflow\src\MlProject\pipeline\stage_01_data_ingestion.py", line 12, in main
+    config = ConfigurationManager()
+  File "g:\projects\end-to-end-machine-learning-project-with-mlflow\src\MlProject\config\configuration.py", line 14, in __init__
+    self.schema = read_yaml(schema_filepath)
+  File "G:\Projects\End-to-End-Machine-learning-Project-with-MlFlow\MlProject\lib\site-packages\ensure\main.py", line 807, in __call__
+    return self.f(*args, **kwargs)
+  File "g:\projects\end-to-end-machine-learning-project-with-mlflow\src\MlProject\utils\common.py", line 32, in read_yaml
+    raise ValueError("yaml file is empty")
+ValueError: yaml file is empty
+[2024-03-31 22:06:44,815 : INFO : main : >>>>>> Stage Data Ingestion Stage Started <<<<<<]
+[2024-03-31 22:06:44,817 : INFO : common : Yaml file : config\config.yaml Loaded Successfully]
+[2024-03-31 22:06:44,818 : INFO : common : Yaml file : params.yaml Loaded Successfully]
+[2024-03-31 22:06:44,819 : INFO : common : Yaml file : schema.yaml Loaded Successfully]
+[2024-03-31 22:06:44,820 : INFO : common : Created directory at: artifacts]
+[2024-03-31 22:06:44,820 : ERROR : main : "'ConfigBox' object has no attribute 'root_data'"]
+Traceback (most recent call last):
+  File "box\box.py", line 503, in box.box.Box.__getitem__
+KeyError: 'root_data'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\box.py", line 536, in box.box.Box.__getattr__
+  File "box\box.py", line 524, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'root_data'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\box.py", line 538, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'root_data'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\config_box.py", line 28, in box.config_box.ConfigBox.__getattr__
+  File "box\box.py", line 552, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'root_data'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\box.py", line 503, in box.box.Box.__getitem__
+KeyError: 'root_data'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\box.py", line 536, in box.box.Box.__getattr__
+  File "box\box.py", line 524, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'root_data'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\box.py", line 538, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'root_data'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "G:\Projects\End-to-End-Machine-learning-Project-with-MlFlow\main.py", line 9, in <module>
+    pipe.main()
+  File "g:\projects\end-to-end-machine-learning-project-with-mlflow\src\MlProject\pipeline\stage_01_data_ingestion.py", line 13, in main
+    data_ingestion_config = config.get_data_ingestion_config()
+  File "g:\projects\end-to-end-machine-learning-project-with-mlflow\src\MlProject\config\configuration.py", line 20, in get_data_ingestion_config
+    create_directories([config.root_data])
+  File "box\config_box.py", line 30, in box.config_box.ConfigBox.__getattr__
+  File "box\box.py", line 552, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'root_data'"
+[2024-03-31 22:08:19,247 : INFO : main : >>>>>> Stage Data Ingestion Stage Started <<<<<<]
+[2024-03-31 22:08:19,248 : INFO : common : Yaml file : config\config.yaml Loaded Successfully]
+[2024-03-31 22:08:19,249 : INFO : common : Yaml file : params.yaml Loaded Successfully]
+[2024-03-31 22:08:19,249 : INFO : common : Yaml file : schema.yaml Loaded Successfully]
+[2024-03-31 22:08:19,250 : INFO : common : Created directory at: artifacts]
+[2024-03-31 22:08:19,250 : INFO : common : Created directory at: artifacts/data_ingestion]
+[2024-03-31 22:08:20,736 : INFO : main : >>>>>> Stage Data Ingestion Stage completed <<<<<< 
+
+ x==========x]
