@@ -36,7 +36,7 @@ except Exception as e:
 
 STAGE_NAME = "Model Trainer Stage"
 
-try:
+try:    
     logger.info(f">>>>>> {STAGE_NAME} Started <<<<<<")
     obj = ModelTrainerPipeline()
     obj.main()
