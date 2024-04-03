@@ -9,7 +9,7 @@ import json
 import joblib 
 from typing import Any
 
-@ensure_annotations
+@ensure_annotations 
 def read_yaml(path_to_yaml: Path):
     """reads yaml file and returns
 

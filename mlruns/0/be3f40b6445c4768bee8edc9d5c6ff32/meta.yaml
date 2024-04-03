@@ -1,0 +1,15 @@
+artifact_uri: file:///G:/Projects/End-to-End-Machine-learning-Project-with-MlFlow/mlruns/0/be3f40b6445c4768bee8edc9d5c6ff32/artifacts
+end_time: 1712159461589
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: be3f40b6445c4768bee8edc9d5c6ff32
+run_name: serious-cat-962
+run_uuid: be3f40b6445c4768bee8edc9d5c6ff32
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1712159458467
+status: 3
+tags: []
+user_id: Ahmed-Basem
